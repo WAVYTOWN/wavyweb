@@ -1897,6 +1897,85 @@ img {
   background-size: 125px;
 }
 
+.image-48 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  max-width: 35%;
+  margin-left: 100px;
+  text-align: center;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.events_ani {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  max-width: 40%;
+  margin-left: 100px;
+  text-align: center;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.yondr_ani_01 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  max-width: 63%;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.cursor-wrapper {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cursor-dot {
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #f07;
+}
+
+.cursor-circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(127, 127, 127, 0.23);
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 991px) {
   .homepage-opening-section {
     display: block;
@@ -1962,6 +2041,9 @@ img {
   }
   .more {
     max-width: 90%;
+  }
+  .cursor-wrapper {
+    display: none;
   }
 }
 
@@ -2675,9 +2757,53 @@ img {
     -ms-transform: translate(90px, 38px) rotate(-29deg);
     transform: translate(90px, 38px) rotate(-29deg);
   }
+  .events_div {
+    max-width: 80%;
+    margin-left: 32px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .yondr_div {
+    max-width: 80%;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .div-block-40 {
+    padding-right: 19px;
+    padding-left: 81px;
+  }
+  .more {
+    max-width: 80%;
+  }
   .section-2 {
     margin-bottom: 140px;
     padding-bottom: 0px;
+  }
+  .image-48 {
+    margin-top: 93px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 57px;
+  }
+  .events_ani {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .yondr_ani_01 {
+    margin-right: auto;
+    margin-left: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .div-block-41 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cursor-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
