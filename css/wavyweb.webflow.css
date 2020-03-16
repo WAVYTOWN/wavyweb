@@ -1065,7 +1065,7 @@ img {
   flex-direction: column;
 }
 
-.media_production {
+.moblie_link {
   margin-left: 1px;
   color: #000;
   font-size: 24px;
@@ -1229,8 +1229,8 @@ img {
 .text-block-2 {
   margin-top: 15px;
   margin-bottom: 10px;
-  font-size: 20px;
-  line-height: 15px;
+  font-size: 30px;
+  line-height: 30px;
   font-weight: 200;
 }
 
@@ -1371,7 +1371,7 @@ img {
 
 .form-wrapper {
   width: 100%;
-  height: 100%;
+  height: auto;
   margin-bottom: 0px;
 }
 
@@ -1416,6 +1416,7 @@ img {
   max-width: 560px;
   min-width: 490px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1457,8 +1458,8 @@ img {
 }
 
 .slide-banner {
-  width: 30%;
-  min-width: 310px;
+  width: auto;
+  min-width: 25%;
   margin-bottom: 0px;
   padding-bottom: 0px;
   border-radius: 0px;
@@ -1681,14 +1682,15 @@ img {
 
 .mask {
   height: auto;
-  max-height: 700px;
+  max-height: none;
   margin-bottom: 0px;
+  line-height: 30px;
 }
 
 .form-section-title {
-  margin-bottom: 12px;
+  margin-bottom: 0px;
   color: #0a1f44;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 32px;
   font-weight: 400;
 }
@@ -1753,7 +1755,7 @@ img {
 
 .slider {
   position: relative;
-  height: 100%;
+  height: auto;
   min-height: auto;
   background-color: transparent;
 }
@@ -1815,7 +1817,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  padding: 100px 3% 0px;
+  padding: 0px 3%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1825,6 +1827,8 @@ img {
   -ms-flex-align: center;
   align-items: center;
   background-color: #fff;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .button-wrap {
@@ -1868,8 +1872,8 @@ img {
 }
 
 .error-message {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
@@ -1878,7 +1882,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  min-height: auto;
   margin-bottom: 0px;
   padding-bottom: 0px;
   -webkit-box-pack: center;
@@ -2544,7 +2548,7 @@ img {
   }
   .mobile_menu_drop-down {
     z-index: 9999999;
-    display: none;
+    display: block;
     padding-top: 30%;
     padding-right: 5%;
     padding-left: 5%;
@@ -2575,22 +2579,22 @@ img {
     width: 100%;
     height: 100%;
   }
-  .media_production {
+  .moblie_link {
     display: block;
     color: #000;
   }
-  .case-study-div-mobile-menu {
+  .content-mobile-menu {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #000;
   }
-  .portofolio-div_mobile {
+  .production-div_mobile {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #000;
   }
-  .about-us-and-contact-mobile-menu {
+  .about-mobile-menu {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #000;
