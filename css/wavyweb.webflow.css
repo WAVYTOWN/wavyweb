@@ -827,6 +827,11 @@ img {
   grid-template-rows: auto;
 }
 
+.other_div {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .dropdown_case-study {
   display: -webkit-box;
   display: -webkit-flex;
@@ -888,6 +893,8 @@ img {
 
 .cs-50-percent-right.isiah {
   height: 550px;
+  padding-right: 0px;
+  padding-left: 0px;
   background-image: url('../images/Untitled-2.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -1319,6 +1326,7 @@ img {
   background-color: #aca5c4;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
+  font-family: 'Zilla Slab', sans-serif;
   color: #fff;
   font-size: 16px;
   text-align: center;
@@ -1364,6 +1372,7 @@ img {
 
 .field-label {
   margin-bottom: 8px;
+  font-family: 'Zilla Slab', sans-serif;
   color: #617283;
   font-size: 15px;
   font-weight: 500;
@@ -1416,6 +1425,7 @@ img {
   max-width: 560px;
   min-width: 490px;
   margin-bottom: 0px;
+  padding-top: 59px;
   padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1472,6 +1482,7 @@ img {
   margin-bottom: 0px;
   border: 1.3px solid #bec9d5;
   border-radius: 4px;
+  font-family: 'Zilla Slab', sans-serif;
   font-size: 16px;
 }
 
@@ -1494,26 +1505,6 @@ img {
 
 .text-field::placeholder {
   color: rgba(97, 114, 131, 0.46);
-}
-
-.banner-logo {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 40px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.08);
 }
 
 .button-wrapper {
@@ -1562,11 +1553,7 @@ img {
 
 .logo-2 {
   max-width: 30%;
-  margin-bottom: 40px;
-}
-
-.star-row {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .checkbox-icon {
@@ -1618,6 +1605,7 @@ img {
 
 .form-item-wrapper.fixed-height {
   min-height: 160px;
+  margin-bottom: 0px;
 }
 
 .next-button {
@@ -1643,7 +1631,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1689,6 +1677,9 @@ img {
 
 .form-section-title {
   margin-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: 'Zilla Slab', sans-serif;
   color: #0a1f44;
   font-size: 20px;
   line-height: 32px;
@@ -1768,7 +1759,7 @@ img {
   min-height: 100vh;
 }
 
-.checkbox {
+.checkbox1 {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -1788,7 +1779,7 @@ img {
   cursor: pointer;
 }
 
-.checkbox:active {
+.checkbox1:active {
   border: 1px solid #000;
 }
 
@@ -1849,10 +1840,10 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 24%;
+  width: 50%;
   height: 140px;
   min-width: 150px;
-  margin-right: 6px;
+  margin-right: -4px;
   margin-left: 6px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -1893,26 +1884,6 @@ img {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-}
-
-.banner-content {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  height: 100%;
-  padding: 0% 40px 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
 }
 
 .dc-scene {
@@ -1988,13 +1959,34 @@ img {
   background-color: transparent;
   font-family: 'Zilla Slab', sans-serif;
   color: #ea6d57;
-  font-size: 70px;
+  font-size: 78px;
   font-weight: 700;
 }
 
 .instagram-wavytown {
   font-size: 10px;
   line-height: 10px;
+}
+
+.div-block-43 {
+  max-height: 2px;
+  max-width: 10px;
+}
+
+.background-video {
+  overflow: visible;
+}
+
+.div-block-44 {
+  min-height: 500px;
+}
+
+.video {
+  padding-bottom: 220px;
+}
+
+.text-block-5 {
+  font-weight: 100;
 }
 
 @media screen and (max-width: 991px) {
@@ -2028,10 +2020,6 @@ img {
     display: none;
     width: 100%;
   }
-  .banner-logo {
-    padding-top: 26px;
-    padding-bottom: 26px;
-  }
   .checkbox-base {
     height: auto;
     min-height: 100px;
@@ -2052,13 +2040,6 @@ img {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-  .banner-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-image: none;
-    background-size: auto;
-    background-repeat: repeat;
   }
   .cursor-wrapper {
     display: none;
@@ -2370,6 +2351,10 @@ img {
     font-size: 13px;
     line-height: 20px;
   }
+  .body-text.smaller-text.bold {
+    font-size: 14px;
+    white-space: normal;
+  }
   .body-text._50 {
     width: 100%;
     font-size: 14px;
@@ -2399,6 +2384,8 @@ img {
   .contact_wavytown_email {
     padding-top: 29px;
     padding-bottom: 0px;
+    font-size: 60px;
+    line-height: 60px;
   }
   .contact_wavytown {
     padding-top: 10px;
@@ -2536,6 +2523,8 @@ img {
     display: flex;
     width: 25px;
     height: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -2545,10 +2534,14 @@ img {
     -ms-flex-align: center;
     align-items: center;
     background-color: #a77070;
+    background-image: url('../images/BLACK_TEXT_LOGO_WT.png');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-attachment: scroll;
   }
   .mobile_menu_drop-down {
     z-index: 9999999;
-    display: block;
+    display: none;
     padding-top: 30%;
     padding-right: 5%;
     padding-left: 5%;
@@ -2663,7 +2656,7 @@ img {
     margin-right: 0px;
     margin-bottom: 10px;
     padding-right: 0px;
-    font-size: 24px;
+    font-size: 12px;
   }
   .div-block-42 {
     margin-right: -50px;
@@ -2698,14 +2691,15 @@ img {
     flex-wrap: wrap;
   }
   .form-section-title {
-    width: 0px;
-    height: 0px;
-    max-height: 0px;
-    max-width: 0px;
-    min-height: 0px;
-    min-width: 0px;
-    font-size: 2em;
-    line-height: 1.3em;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: none;
+    min-height: auto;
+    min-width: auto;
+    padding-bottom: 0px;
+    font-size: 20px;
+    line-height: 40px;
     font-weight: 400;
   }
   .slider {
@@ -2893,14 +2887,14 @@ img {
     grid-row-end: 2;
   }
   #w-node-201b82f5ec4b-6f4e3502 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
     -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
     -ms-grid-row-span: 1;
-    grid-row-end: 3;
+    grid-row-end: span 1;
   }
   #w-node-221dafa9ea79-66bb3ad3 {
     -ms-grid-column: 1;
