@@ -692,6 +692,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   border-top: 1px solid #000;
+  border-bottom: 0px none #000;
   cursor: pointer;
 }
 
@@ -2683,7 +2684,11 @@ img {
     width: 100%;
   }
   .checkbox-base {
+    min-width: 240px;
     margin-bottom: 15px;
+  }
+  .logo-2 {
+    max-width: 50%;
   }
   .form-item-wrapper {
     -webkit-flex-wrap: wrap;
@@ -2697,7 +2702,8 @@ img {
     max-width: none;
     min-height: auto;
     min-width: auto;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 20px;
     line-height: 40px;
     font-weight: 400;
@@ -2705,6 +2711,9 @@ img {
   .slider {
     height: auto;
     min-height: 80vh;
+  }
+  .form-paragraph {
+    margin-bottom: 41px;
   }
   .email_button {
     width: 0px;
