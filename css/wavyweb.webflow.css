@@ -532,6 +532,10 @@ img {
   border-radius: 100px;
 }
 
+.circle1:hover {
+  background-color: transparent;
+}
+
 .circle1.tell-me-more {
   position: absolute;
   left: 5%;
@@ -663,6 +667,11 @@ img {
   align-items: center;
   border-top: 1px solid #000;
   cursor: pointer;
+}
+
+.oy-head1:hover {
+  border-radius: 0px;
+  background-color: transparent;
 }
 
 .oy-div {
@@ -3551,7 +3560,8 @@ img {
     padding-right: 36px;
   }
   .wavypage.contact_page {
-    padding-top: 160px;
+    margin-top: 100px;
+    padding-top: 0px;
     background-color: #f1e2e2;
   }
   .h2 {
@@ -3564,7 +3574,7 @@ img {
   .homepage-animation.full-vh {
     overflow: visible;
     height: 50vh;
-    margin-bottom: 74px;
+    margin-bottom: 0px;
   }
   .nav-bar {
     z-index: 99999;
@@ -3677,10 +3687,10 @@ img {
     height: 10px;
   }
   .overyondr_div {
-    margin-top: 126px;
+    margin-top: 0px;
   }
   .oy-head1 {
-    margin-top: 108px;
+    margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -4332,6 +4342,7 @@ img {
   }
   .div-block-48 {
     display: block;
+    margin-top: 23px;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -4345,8 +4356,8 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -4355,6 +4366,7 @@ img {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    font-size: 20px;
     -o-object-fit: contain;
     object-fit: contain;
   }
